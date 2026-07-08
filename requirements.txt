@@ -1,0 +1,9 @@
+# 黄金投资分析助手 - 依赖列表
+# Gold Investment Assistant - Dependencies
+#
+# 核心逻辑使用 Python 标准库实现，无强制外部依赖。
+# Core logic is implemented with Python standard library only.
+
+# 可选：自动加载 .env 文件中的 FRED_API_KEY
+# Optional: auto-load FRED_API_KEY from .env file
+python-dotenv>=1.0.0
