@@ -631,7 +631,6 @@ python tests/test_core.py
 - [东方财富数据中心](https://data.eastmoney.com/) — 宏观经济数据
 - [新浪财经](https://finance.sina.com.cn/) — 实时行情与新闻
 - [腾讯财经](https://gu.qq.com/) — 美股 ETF 行情代理
-- [Plotly](https://plotly.com/) — 交互式可视化（通过 CDN 引用）
 
 感谢以上数据源为开源社区提供的服务。
 
