@@ -399,6 +399,7 @@ KEYWORD_SENTIMENT = {
 | ATR     | 波动率（仅展示，不参与评分） | 高波动=机会多      | 高波动=风险大      |
 | OBV     | 能量潮            | 价格涨+成交量增     | 价格跌+成交量增（背离） |
 | 背离      | 价格与指标背离        | 底背离          | 顶背离          |
+| 支撑/阻力 | 关键价位参考（仅展示，不参与评分） | 回调至支撑位企稳（偏多） | 跌破支撑 / 突破阻力（偏空） |
 
 ***
 
@@ -584,8 +585,8 @@ python tests/test_core.py
 
 ### 贡献方向
 
-- 🐛 报告或修复 Bug（[提交 Issue](../../issues/new?labels=bug\&template=bug_report.md)）
-- 💡 提出新功能建议（[提交 Issue](../../issues/new?labels=enhancement\&template=feature_request.md)）
+- 🐛 报告或修复 Bug（[提交 Issue](../../issues/new?labels=bug)）
+- 💡 提出新功能建议（[提交 Issue](../../issues/new?labels=enhancement)）
 - 📝 改进文档和示例
 - 🌍 翻译 README 到其他语言
 - 🧪 补充测试用例
@@ -626,6 +627,7 @@ python tests/test_core.py
 - [东方财富数据中心](https://data.eastmoney.com/) — 宏观经济数据
 - [新浪财经](https://finance.sina.com.cn/) — 实时行情与新闻
 - [腾讯财经](https://gu.qq.com/) — 美股 ETF 行情代理
+- [Reuters](https://www.reuters.com/) — 国际财经新闻（新闻情绪源之一）
 
 感谢以上数据源为开源社区提供的服务。
 
